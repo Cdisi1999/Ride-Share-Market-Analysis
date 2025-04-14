@@ -1,8 +1,8 @@
-# 🚕 Zuber Ride-Share Analysis – Chicago, November 2017
+# Zuber Ride-Share Analysis – Chicago, November 2017
 
 This project analyzes Chicago taxi ride data to support the market entry strategy of **Zuber**, a new ride-sharing company. The analysis explores passenger ride patterns, company performance, popular drop-off locations, and the impact of weather on trip duration.
 
-## 📂 Project Structure
+## Project Structure
 
 This project is implemented in a Jupyter Notebook: **`Ride Share Analysis.ipynb`**
 
@@ -12,7 +12,7 @@ This project is implemented in a Jupyter Notebook: **`Ride Share Analysis.ipynb`
 - Visualize top-performing companies and locations.
 - Test the hypothesis: *"The average ride duration from the Loop to O'Hare changes on rainy Saturdays."*
 
-## 🧰 Tools and Technologies
+## Tools and Technologies
 
 - **Python (Pandas, Matplotlib, Seaborn, SciPy)**
 - **SQL** (data retrieval and aggregation)
@@ -20,7 +20,7 @@ This project is implemented in a Jupyter Notebook: **`Ride Share Analysis.ipynb`
 - **HTML parsing** (for weather data)
 - **Statistical testing** (two-sample t-test)
 
-## 📊 Data Sources
+## Data Sources
 
 1. SQL database containing:
    - `neighborhoods`: Neighborhood metadata
@@ -36,7 +36,7 @@ This project is implemented in a Jupyter Notebook: **`Ride Share Analysis.ipynb`
 3. HTML page (web-scraped):
    - Weather records from November 2017
 
-## 🔬 Hypothesis Tested
+## Hypothesis Tested
 
 > **"Ride durations from the Loop to O’Hare differ on rainy Saturdays."**
 
@@ -45,13 +45,13 @@ This project is implemented in a Jupyter Notebook: **`Ride Share Analysis.ipynb`
 - Significance Level: α = 0.05
 - Method: Two-sample t-test
 
-## 📈 Key Insights
+## Key Insights
 
 - Flash Cab and Taxi Affiliation Services were the top ride providers mid-month.
 - Drop-offs were most frequent in central neighborhoods like The Loop.
 - A statistically significant difference in ride duration was observed during rainy conditions, suggesting weather may affect trip times.
 
-## ✅ How to Use
+## How to Use
 
 1. Clone the repository:
    ```bash
